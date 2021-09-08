@@ -5,6 +5,8 @@
  */
 package ecobike;
 
+import access.ClientDAO;
+
 /**
  *
  * @author user
@@ -16,6 +18,8 @@ public class EcoBike {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ClientDAO c = new ClientDAO ();
+        c.getAllClients();
     }
     
 }

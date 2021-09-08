@@ -30,9 +30,17 @@ public class ClientModel {
         return id;
     }
     
-    //metodo get para alias
-    public String getAlias (){
+    public String getAlias(){
         return alias;
     }
+    
+    public void setAlias (String alias){
+        this.alias = alias;
+    }
+    
+    public void setId (int id){
+        this.id = id;
+    }
+    
   
 }
